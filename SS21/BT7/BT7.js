@@ -8,4 +8,4 @@ if(max < b){
 if(max < c){
     max = c;
 }
-console.log("Sô lớn nhất là " + max);
+console.log("Số lớn nhất là " + max);
