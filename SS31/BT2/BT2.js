@@ -6,7 +6,6 @@ function largestOfArrs(...arr){
     }
     return maxes;
 }
-let arr1 = [1,3,6,3,5,9,10];
-let arr2 = [3,6,8,2,1,11];
-let arr3 = [-10,-8,-7,-1,-6];
-console.log(largestOfArrs(arr1,arr2,arr3));
+console.log(largestOfArrs([1, 2, 3, 4], [-1, -2, -3], [5, 1, 2, 9]));
+console.log(largestOfArrs([1, 2, 3, 4], [5, 1, 2, 9]));
+console.log(largestOfArrs());
