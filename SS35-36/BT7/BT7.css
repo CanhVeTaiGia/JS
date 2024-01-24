@@ -1,0 +1,41 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .display {
+    width: 100px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  .operators {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .numbers {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .clear {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
