@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+}
+
+.progress .circle{
+    display: flex;
+    background-color: none;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: gray;
+    background-color: white;
+    transition: all 200ms ease;
+}
+
+.progress .active{
+    border-color: aqua;
+}
+.progress-son{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-color: lightgray;
+}
+.progress .progress-bar{
+    height: 1px;
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    border-color: aqua;
+    color: white;
+    transition: all 300ms ease;
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+}
+
+.button .prev{
+    height: 40px;
+    width: 100px;
+    background-color: lightgray;
+    border: none;
+}
+
+.button .next{
+    height: 40px;
+    width: 100px;
+    background-color: lightgray;
+    border: none;
+}
+
